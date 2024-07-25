@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Pokedex 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### PROPOSTA DO PROJETO 
+Projeto criado para testar conhecimentos em React, conceito de SPA, javascript, Context API, fetch API, tratamento e captura de erros,  media queries, NPM, bom desenvolvimento, lógica no código e tomada de decisões técnicas.
 
-## Available Scripts
+### FUNCIONALIDADES
+- O projeto conta com um botão que troca o tema da aplicação e o icone desse botão de acordo com o tema
+  
+- A página home armazena o conteúdo mostrado na tela (o conteúdo que é adicionado como bõtao ver mais) assim, quando vc entra na página de detalhes e volta para home o conteudo que o vc puxou ainda vai estar lá
 
-In the project directory, you can run:
+-  Site adaptavel a diferentes tamanhos de tela
 
-### `npm start`
+- Na página de detalhes de cada pokemon vai conter um quadro com algumas informações sobre ele, e mais embaixo um outro quadro com o moviset do pokemon
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### TECNOLOGIA / FERRAMENTAS USADAS NO PROJETO 
+FontAwesome - icones (tema; sol e lua, home) 
 
-### `npm test`
+ExcaliDraw - desenvolvimento do design do layout projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+styled-components 
 
-### `npm run build`
+styled-system/css - criação das media queries 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Context API - criação do tema e do armazenamento de conteúdo na home
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+react-router-dom - rotas e navegação entre as páginas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# LAYOUT DO PROJETO
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/user-attachments/assets/000af6ca-f970-44e4-bdec-bfccbe335c24)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/user-attachments/assets/3d8dd968-e5e3-4643-a6aa-06f7820e8903)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/user-attachments/assets/f48b7b37-fc9f-461c-9272-1cf3bcde4a42)
 
-## Learn More
+### RODANDO EM LOCALHOST
+- Clone o projeto ou baixe o zip 
+  
+- Abra um novo terminal e digite os comandos;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - npm install
+  
+  - npm start
