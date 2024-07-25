@@ -1,4 +1,4 @@
-# Pokedex 
+# Pokedex React app
 
 ### PROPOSTA DO PROJETO 
 Projeto criado para testar conhecimentos em React, conceito de SPA, javascript, Context API, fetch API, tratamento e captura de erros,  media queries, NPM, bom desenvolvimento, lógica no código e tomada de decisões técnicas.
