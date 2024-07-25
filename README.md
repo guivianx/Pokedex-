@@ -14,9 +14,14 @@ Projeto criado para testar conhecimentos em React, conceito de SPA, javascript, 
 
 
 ### TECNOLOGIA / FERRAMENTAS USADAS NO PROJETO 
+
 FontAwesome - icones (tema; sol e lua, home) 
 
 ExcaliDraw - desenvolvimento do design do layout projeto
+
+JavaScript
+
+React
 
 styled-components 
 
@@ -25,8 +30,6 @@ styled-system/css - criação das media queries
 Context API - criação do tema e do armazenamento de conteúdo na home
 
 react-router-dom - rotas e navegação entre as páginas
-
-JavaScript
 
 
 # LAYOUT DO PROJETO
