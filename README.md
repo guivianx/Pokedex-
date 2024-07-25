@@ -41,7 +41,9 @@ react-router-dom - rotas e navegação entre as páginas
 ![image](https://github.com/user-attachments/assets/f48b7b37-fc9f-461c-9272-1cf3bcde4a42)
 
 ### RODANDO EM LOCALHOST
-- Clone o projeto ou baixe o zip 
+- Clone o projeto ou baixe o zip
+  
+- Abra no vsCode
   
 - Abra um novo terminal e digite os comandos;
 
